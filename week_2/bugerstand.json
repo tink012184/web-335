@@ -1,0 +1,19 @@
+{
+    "customer": {
+        "_id": "cst_1001",
+        "firstName": "Melissa",
+        "lastName": "Lutz",
+        "burgers": [
+            {
+                "_id": "brg_2001",
+                "burgerName": "Classic Cheeseburger",
+                "price": 8.49
+            },
+            {
+                "_id": "brg_2002",
+                "burgerName": "BBQ Bacon Burger",
+                "price": 10.25
+            }
+        ]
+    }
+}
