@@ -1,0 +1,57 @@
+{
+  "viewers": [
+    {
+      "_id": "v_9f2a1c7e",
+      "firstName": "Ava",
+      "lastName": "Thompson"
+    },
+    {
+      "_id": "v_b47d3e10",
+      "firstName": "Liam",
+      "lastName": "Martinez"
+    }
+  ],
+  "movies": [
+    {
+      "_id": "m_01fd8a92",
+      "movieName": "Starlight Over Cedar Ridge",
+      "genre": "Drama"
+    },
+    {
+      "_id": "m_8c2a77b1",
+      "movieName": "Quantum Heist",
+      "genre": "Science Fiction"
+    },
+    {
+      "_id": "m_55a0d3f6",
+      "movieName": "Midnight Laughter",
+      "genre": "Comedy"
+    }
+  ],
+  "ratings": [
+    {
+      "_id": "r_700c3f95",
+      "ratingScore": 5,
+      "viewerId": "v_9f2a1c7e",
+      "movieId": "m_01fd8a92"
+    },
+    {
+      "_id": "r_b3f1a12d",
+      "ratingScore": 4,
+      "viewerId": "v_9f2a1c7e",
+      "movieId": "m_8c2a77b1"
+    },
+    {
+      "_id": "r_3a8e2210",
+      "ratingScore": 3,
+      "viewerId": "v_b47d3e10",
+      "movieId": "m_55a0d3f6"
+    },
+    {
+      "_id": "r_c51d9a6e",
+      "ratingScore": 2,
+      "viewerId": "v_b47d3e10",
+      "movieId": "m_8c2a77b1"
+    }
+  ]
+}
