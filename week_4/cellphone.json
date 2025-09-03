@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "_id": "u1",
+      "firstName": "Melissa",
+      "lastName": "Lutz"
+    },
+    {
+      "_id": "u2",
+      "firstName": "Alex",
+      "lastName": "Johnson"
+    }
+  ],
+  "chargers": [
+    {
+      "_id": "c1",
+      "chargerType": "USB-C",
+      "voltage": 20
+    },
+    {
+      "_id": "c2",
+      "chargerType": "Lightning",
+      "voltage": 18
+    }
+  ],
+  "devices": [
+    {
+      "_id": "d1",
+      "deviceName": "iPhone 14",
+      "deviceType": "Smartphone",
+      "user_id": "u1",
+      "charger_id": "c2"
+    },
+    {
+      "_id": "d2",
+      "deviceName": "Samsung Galaxy S23",
+      "deviceType": "Smartphone",
+      "user_id": "u2",
+      "charger_id": "c1"
+    },
+    {
+      "_id": "d3",
+      "deviceName": "iPad Pro",
+      "deviceType": "Tablet",
+      "user_id": "u1",
+      "charger_id": "c2"
+    }
+  ]
+}
